@@ -1,0 +1,9 @@
+#!/usr/bin/env
+#
+sh ${HOME}/.fehbg &
+picom &
+xfsettingsd &
+flameshot &
+pulseaudio -D
+redshift &
+sh ${HOME}/.config/polybar/default/launch

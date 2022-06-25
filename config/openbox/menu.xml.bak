@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/neon/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
+    <item label="Web Browser" icon="/home/neon/.config/obmenu-generator/icons/e795b0b8fc5973da325697ebb8e05d31.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.88076760976492" icon="/home/neon/.config/obmenu-generator/icons/dec60b328f1c68a35fda8af211499c7d.png" label="Accessories">
+    <item label="About Xfce" icon="/home/neon/.config/obmenu-generator/icons/7a43c9e343d3f165c8d38c642ed9246d.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Application Finder" icon="/home/neon/.config/obmenu-generator/icons/c05509a60604f3608c0a2c43ea2a0d28.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Code - OSS" icon="/home/neon/.config/obmenu-generator/icons/47b565a55c3ca9ab80eee5f49fdccef2.png"><action name="Execute"><command><![CDATA[/usr/lib/code-oss/bin/code-oss --unity-launch]]></command></action></item>
+    <item label="File Manager" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="KeePassXC" icon="/home/neon/.config/obmenu-generator/icons/c857264f311d0522ae75aeedf00b30b2.png"><action name="Execute"><command><![CDATA[keepassxc]]></command></action></item>
+    <item label="Mousepad" icon="/home/neon/.config/obmenu-generator/icons/2fd6cde714863970c6c919003bd4c3ec.png"><action name="Execute"><command><![CDATA[mousepad]]></command></action></item>
+    <item label="Neovim" icon="/home/neon/.config/obmenu-generator/icons/e72ad0c0b7b7c783a3ef1969c4d717d1.png"><action name="Execute"><command><![CDATA[alacritty -e 'nvim']]></command></action></item>
+    <item label="Redshift" icon="/home/neon/.config/obmenu-generator/icons/7bccf6714d7f407a874ac28e400577b6.png"><action name="Execute"><command><![CDATA[redshift-gtk]]></command></action></item>
+    <item label="Run Program..." icon="/home/neon/.config/obmenu-generator/icons/c05509a60604f3608c0a2c43ea2a0d28.png"><action name="Execute"><command><![CDATA[xfce4-appfinder --collapsed]]></command></action></item>
+    <item label="Task Manager" icon="/home/neon/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/neon/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Winetricks" icon="/home/neon/.config/obmenu-generator/icons/51d60bec95f2f789bc84fe3601ef603c.png"><action name="Execute"><command><![CDATA[winetricks --gui]]></command></action></item>
+    <item label="Xarchiver" icon="/home/neon/.config/obmenu-generator/icons/1e3436b7723f06cfacd64a19b01c0d6d.png"><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+  </menu>
+  <menu id="0.428207939581142" icon="/home/neon/.config/obmenu-generator/icons/81e9068edc56d990284911e91789db99.png" label="Development">
+    <item label="Code - OSS" icon="/home/neon/.config/obmenu-generator/icons/47b565a55c3ca9ab80eee5f49fdccef2.png"><action name="Execute"><command><![CDATA[/usr/lib/code-oss/bin/code-oss --unity-launch]]></command></action></item>
+    <item label="Geany" icon="/home/neon/.config/obmenu-generator/icons/f2492f4bd18835f9ddfa32594fbd0dc5.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="IntelliJ IDEA Community Edition" icon="/home/neon/.config/obmenu-generator/icons/2cc55ba3ac80b5f1ce8bda1255cf010f.png"><action name="Execute"><command><![CDATA[/usr/bin/idea]]></command></action></item>
+  </menu>
+  <menu id="0.0350424871231887" icon="/home/neon/.config/obmenu-generator/icons/3efba170680fea1d3dfa59587f5889ec.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/neon/.config/obmenu-generator/icons/9a3c79b033bbc5e04d6ac5654cbc9467.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.823912624592545" icon="/home/neon/.config/obmenu-generator/icons/a8a9b24185110da0904b1c32a93b01ea.png" label="Games">
+    <item label="Among Us" icon="/home/neon/.config/obmenu-generator/icons/48f25044e127dbf2adccd032e0eebdc9.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/945360]]></command></action></item>
+    <item label="Counter-Strike: Global Offensive" icon="/home/neon/.config/obmenu-generator/icons/7178a85b75c9a0d7c8017786f8be6f38.png"><action name="Execute"><command><![CDATA[steam steam://rungameid/730]]></command></action></item>
+    <item label="Minecraft" icon="/home/neon/.config/obmenu-generator/icons/baaaa61694a5e1e15e094c59f9be27a9.png"><action name="Execute"><command><![CDATA[/usr/bin/minecraft-launcher]]></command></action></item>
+    <item label="Steam" icon="/home/neon/.config/obmenu-generator/icons/e7298d9a9191c05af92e5242481980a9.png"><action name="Execute"><command><![CDATA[/usr/bin/steam]]></command></action></item>
+  </menu>
+  <menu id="0.104307734535798" icon="/home/neon/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png" label="Graphics">
+    <item label="Flameshot" icon="/home/neon/.config/obmenu-generator/icons/53811e598752be796629aadeeb536c13.png"><action name="Execute"><command><![CDATA[/usr/bin/flameshot]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/neon/.config/obmenu-generator/icons/94939be887e39fa89727cfa922449085.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="Photoshop CC" icon="/home/neon/.config/obmenu-generator/icons/b1e84d2dbf4d2bbd7fbc2aa75303c827.png"><action name="Execute"><command><![CDATA[bash /home/neon/.photoshopCCV19/launcher/launcher.sh]]></command></action></item>
+    <item label="Ristretto Image Viewer" icon="/home/neon/.config/obmenu-generator/icons/3770851e43ae5b48d17f695905a6505e.png"><action name="Execute"><command><![CDATA[ristretto]]></command></action></item>
+    <item label="upload.systems screenshot uploader" icon="/home/neon/.config/obmenu-generator/icons/53811e598752be796629aadeeb536c13.png"><action name="Execute"><command><![CDATA[/usr/bin/upload.systems]]></command></action></item>
+  </menu>
+  <menu id="0.120086427064948" icon="/home/neon/.config/obmenu-generator/icons/9b6b51736fa80f6e4ea743e9a18b2df9.png" label="Multimedia">
+    <item label="Parole Media Player" icon="/home/neon/.config/obmenu-generator/icons/4c36e2c32963767f05580bc9286f9213.png"><action name="Execute"><command><![CDATA[parole]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/neon/.config/obmenu-generator/icons/69444a851b20aad47731d8338679c90f.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+  </menu>
+  <menu id="0.178480613647789" icon="/home/neon/.config/obmenu-generator/icons/e795b0b8fc5973da325697ebb8e05d31.png" label="Network">
+    <item label="Chromium" icon="/home/neon/.config/obmenu-generator/icons/57528592280d9c67d1de21c7f37b2bf1.png"><action name="Execute"><command><![CDATA[chromium]]></command></action></item>
+    <item label="Firefox Web Browser" icon="/home/neon/.config/obmenu-generator/icons/9501d294e68693677a98215481209058.png"><action name="Execute"><command><![CDATA[firefox]]></command></action></item>
+    <item label="Mail Reader" icon="/home/neon/.config/obmenu-generator/icons/5aeaf961de8c77f75ed5079b8fcf9d00.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Steam" icon="/home/neon/.config/obmenu-generator/icons/e7298d9a9191c05af92e5242481980a9.png"><action name="Execute"><command><![CDATA[/usr/bin/steam]]></command></action></item>
+    <item label="Web Browser" icon="/home/neon/.config/obmenu-generator/icons/e795b0b8fc5973da325697ebb8e05d31.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+  </menu>
+  <menu id="0.176198496524272" icon="/home/neon/.config/obmenu-generator/icons/0b82a46b62fcd3afe7908b39cfd0d580.png" label="Office">
+    <item label="LibreOffice Base" icon="/home/neon/.config/obmenu-generator/icons/e1270e7eac4a2d08fc2fb175940c3667.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/neon/.config/obmenu-generator/icons/39879f3daf3c5b10b1abd66c109213d5.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/neon/.config/obmenu-generator/icons/94939be887e39fa89727cfa922449085.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/neon/.config/obmenu-generator/icons/dc4a9a18ce7c58092658990b7dc46a24.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/neon/.config/obmenu-generator/icons/9a3c79b033bbc5e04d6ac5654cbc9467.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/neon/.config/obmenu-generator/icons/44ec5c9bf8435675b27f109373f8b2bf.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/neon/.config/obmenu-generator/icons/0b172528677a57fff0c7ebe828916771.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+  </menu>
+  <menu id="0.179371262193317" icon="/home/neon/.config/obmenu-generator/icons/bcb151d4685693cd69071c109fe5aaa0.png" label="Settings">
+    <item label="Accessibility" icon="/home/neon/.config/obmenu-generator/icons/9179d32e0c8ae295d8afbe71aa578b44.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Advanced Network Configuration" icon="/home/neon/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Appearance" icon="/home/neon/.config/obmenu-generator/icons/0dd68bbb35c85975ca801fd9aa136eb7.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Color Profiles" icon="/home/neon/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/neon/.config/obmenu-generator/icons/0dd68bbb35c85975ca801fd9aa136eb7.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Default Applications" icon="/home/neon/.config/obmenu-generator/icons/a010e5393a6cbec8aee64c8a6e0e5d93.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Desktop" icon="/home/neon/.config/obmenu-generator/icons/7ef6b26e9f1329ccf083f8bd92a6e166.png"><action name="Execute"><command><![CDATA[xfdesktop-settings]]></command></action></item>
+    <item label="Display" icon="/home/neon/.config/obmenu-generator/icons/899b328154d97564b58e3530c8fbf771.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Keyboard" icon="/home/neon/.config/obmenu-generator/icons/a4e5205467b6f5a5a1c2d3acb656a10b.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/neon/.config/obmenu-generator/icons/98876c630b0f1271c951ccf4f45c78ba.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Notifications" icon="/home/neon/.config/obmenu-generator/icons/eeb089ba62191336f0f0788d2fbe3e9d.png"><action name="Execute"><command><![CDATA[xfce4-notifyd-config]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/neon/.config/obmenu-generator/icons/0476ece428f10447c407d0cc404807fd.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Panel" icon="/home/neon/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Power Manager" icon="/home/neon/.config/obmenu-generator/icons/652a00891eac179acfaafc7767ef43a2.png"><action name="Execute"><command><![CDATA[xfce4-power-manager-settings]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/neon/.config/obmenu-generator/icons/c5489a507574a5078102c94d42960b23.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Screensaver" icon="/home/neon/.config/obmenu-generator/icons/df3a2875c6dc098f2487f501f19d06aa.png"><action name="Execute"><command><![CDATA[xfce4-screensaver-preferences]]></command></action></item>
+    <item label="Session and Startup" icon="/home/neon/.config/obmenu-generator/icons/e7d9a2f831e0025778f81b3b99124a8b.png"><action name="Execute"><command><![CDATA[xfce4-session-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/neon/.config/obmenu-generator/icons/99a38c76ea1616c8f88c1647623f975a.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/neon/.config/obmenu-generator/icons/176bd3d00e82067168210c8421460408.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Text Editor Settings" icon="/home/neon/.config/obmenu-generator/icons/2fd6cde714863970c6c919003bd4c3ec.png"><action name="Execute"><command><![CDATA[mousepad --preferences]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/neon/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Window Manager Tweaks" icon="/home/neon/.config/obmenu-generator/icons/f0c7b0131bb8c8e526c79ff2df646fcd.png"><action name="Execute"><command><![CDATA[xfwm4-tweaks-settings]]></command></action></item>
+    <item label="Window Manager" icon="/home/neon/.config/obmenu-generator/icons/3b740365a2bc245abb2ec1584784c677.png"><action name="Execute"><command><![CDATA[xfwm4-settings]]></command></action></item>
+    <item label="Workspaces" icon="/home/neon/.config/obmenu-generator/icons/bff73cd55b5c94e2c4d01680228a87a5.png"><action name="Execute"><command><![CDATA[xfwm4-workspace-settings]]></command></action></item>
+    <item label="Xfce Terminal Settings" icon="/home/neon/.config/obmenu-generator/icons/a8a414ac9af84423029d18414abb2f6f.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.67551415396224" icon="/home/neon/.config/obmenu-generator/icons/a176b24cfc1041f19deeb2d962ed10c1.png" label="System">
+    <item label="Alacritty" icon="/home/neon/.config/obmenu-generator/icons/730bad5b893b27fd05734129bd317338.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar --bulk-rename]]></command></action></item>
+    <item label="Htop" icon="/home/neon/.config/obmenu-generator/icons/d6256ba9f410160cd50c098ee153e426.png"><action name="Execute"><command><![CDATA[alacritty -e 'htop']]></command></action></item>
+    <item label="Log Out" icon="/home/neon/.config/obmenu-generator/icons/12c58f5f8f789154d2871f412d856247.png"><action name="Execute"><command><![CDATA[xfce4-session-logout]]></command></action></item>
+    <item label="Task Manager" icon="/home/neon/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png"><action name="Execute"><command><![CDATA[xfce4-taskmanager]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/neon/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon="/home/neon/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/neon/.config/obmenu-generator/icons/eb1f6f7f26cb6d31081b560ef31f4928.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.73142684881331" icon="/home/neon/.config/obmenu-generator/icons/5d4fce55a4a4966e420dedb34dbd7138.png" label="Advanced Settings">
+    <item label="Tint2 Panel" icon="/home/neon/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.141702549289654" icon="/home/neon/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/neon/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/neon/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/neon/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/neon/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/neon/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/neon/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/neon/.config/obmenu-generator/icons/bea463f6928b30d6539f9bf6955346e6.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.132587267581574" icon="/home/neon/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/neon/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/neon/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/neon/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/neon/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/neon/.config/obmenu-generator/icons/5439731ba229bd41d9a7d50326f48767.png"><action name="Execute"><command><![CDATA[xflock4]]></command></action></item>
+    <item label="Exit" icon="/home/neon/.config/obmenu-generator/icons/6cac7b097e86a0d41f671eadf3e94e57.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+polybar-msg cmd quit
+sleep 2s && polybar -c \
+  ~/.config/polybar/round/config.ini main &!
