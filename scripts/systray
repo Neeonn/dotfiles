@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+discord=$(pgrep -x Discord)
+steam=$(pgrep -x steam)
+
+
+if [ -n "$steam" ] && [ -n "$discord" ]; then
+  echo "  "
+elif [ -n "$discord" ]; then
+  echo ""
+elif [ -n "$steam" ]; then
+  echo ""
+else
+  echo ""
+fi

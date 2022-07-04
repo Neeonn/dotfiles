@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+betterlockscreen -l dim &
+sleep 0.5 && doas zzz

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+updates=$(doas xbps-install -Mun | wc -l)
+
+if [ -n "$updates" ] && [ "$updates" -gt 0 ]; then
+  echo "%{T2}%{F#7fff8a}%{T- F-} $updates"
+else
+  echo ""
+fi
